@@ -39,7 +39,7 @@ div > div > nav > ul {
 
 
 div > div > nav > ul > li > a{
-	display: inline-block;
+    display: inline-block;
     float: left;
     color: green;
     text-decoration: none;
