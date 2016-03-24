@@ -1,0 +1,143 @@
+/*
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}*/
+
+div {
+  max-width: 960px;
+  margin: 0 auto; 
+}
+
+#top{
+
+	height: 70px;
+}
+
+div > div > img {
+ width:40%; 
+ height: auto;
+ align:left ;
+margin: 0 auto
+}
+
+
+div > div > nav {
+  float: right;
+  width: 40%;
+}
+
+div > div > nav > ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 2px;
+    overflow: hidden;
+    background-color: none;
+    border-bottom:thin dotted #008080
+}
+
+
+div > div > nav > ul > li > a{
+	display: inline-block;
+    float: left;
+    color: green;
+    text-decoration: none;
+    width: 50%;
+}
+
+
+div > div > nav > ul > li > a:visited{
+  color: red;
+  text-decoration: none;
+}
+div > div > nav > ul > li > a:hover{
+  color: orange;
+  text-decoration: none;
+}
+
+
+div > div >table{
+
+	 border:0;
+	 padding:0;
+	 width:100%;
+}
+
+#content{
+  display: inline-block;
+	margin-top: 20px;
+	width:71%;
+	margin-left: 0;
+}
+
+#rest{
+	font-weight:bold;
+}
+
+.em{
+
+	font-size: 1.4em;
+	color: green;
+}
+/*div > div > section{
+
+	width:27%;
+	margin-right:0;
+	background-color: #99CC00;
+
+}*/
+#aside {
+  /*display:inline-flex;*/
+  float: right;
+	width: 250px;
+	padding: 0%;
+	list-style-type: none;
+  background-color: #EEF5DF;
+}
+
+footer > div > table > tr > td > a{
+  margin-right: 1%;
+  text-decoration: none;
+  color:black;
+  font-size: 0.7em;
+  line-height: 1.7;
+
+}
+.content{
+  text-decoration: none;
+  color:black;
+  font-size: 0.7em;
+  line-height: 1.7;
+
+}
+
+.information{
+  font-size: 1.2em;
+}
+
+div > div > table{
+    border: 0px;
+    border-collapse: collapse;
+}
+
+#footer {
+  border-bottom:thin dotted #008080
+}
+
+footer > div > table{
+  width: 45%;
+  float: right;
+  margin: 0 auto; 
+
+}
+
+#buttom{
+  width: 45%;
+  float: right;
+  margin: 0 auto; 
+}
+
+
+
+
